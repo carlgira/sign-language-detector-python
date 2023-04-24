@@ -14,9 +14,9 @@ pip install -r requirements.txt
 
     1. Collect the images using the collect_imgs.py. Maybe youll have to change line 14 with VideoCapture. Depending on your camera the number will be different.
 
-    ```bash
-    python collect_imgs.py
-    ```
+```bash
+python collect_imgs.py
+```
 
     Use one or two hands to create different signs with you hands. Press "Q" each time to change the sign and save the images.
 
@@ -24,21 +24,21 @@ pip install -r requirements.txt
 
     2. Create dataset, using the images from previous step.
 
-    ```bash
-    python create_dataset.py
-    ```
+```bash
+python create_dataset.py
+```
 
     3. Train the model
 
-    ```bash
-    python train_classifier.py
-    ```
+```bash
+python train_classifier.py
+```
 
     4. Test the model
 
-    ```bash
-    python inference_classifier.py
-    ```
+```bash
+python inference_classifier.py
+```
 
 ## Video
 
