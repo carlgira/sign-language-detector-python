@@ -20,7 +20,7 @@ python collect_imgs.py
 
 Use one or two hands to create different signs with you hands. Press "Q" each time to change the sign and save the images.
 
-<img src="image.png"/>
+<img src="image-bls.png"/>
 
 2. Create dataset, using the images from previous step.
 
