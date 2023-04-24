@@ -17,6 +17,8 @@ DATA_DIR = './data'
 data = []
 labels = []
 for dir_ in os.listdir(DATA_DIR):
+    if dir_.startswith("."):
+            continue
     for img_path in os.listdir(os.path.join(DATA_DIR, dir_)):
         if not img_path.endswith(".jpg"):
             continue
