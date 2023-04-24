@@ -57,6 +57,8 @@ while True:
 
         x2 = int(max(x_) * W) - 10
         y2 = int(max(y_) * H) - 10
+        
+        data_aux = np.pad(data_aux, (0, 84 - len(data_aux)))
 
         prediction = model.predict([np.asarray(data_aux)])
 
