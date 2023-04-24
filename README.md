@@ -12,7 +12,7 @@ pip install -r requirements.txt
 
 ## Instructions
 
-    1. Collect the images using the collect_imgs.py. Maybe youll have to change line 14 with VideoCapture. Depending on your camera the number will be different.
+1. Collect the images using the collect_imgs.py. Maybe youll have to change line 14 with VideoCapture. Depending on your camera the number will be different.
 
 ```bash
 python collect_imgs.py
