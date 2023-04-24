@@ -20,6 +20,8 @@ pip install -r requirements.txt
 
     Use one or two hands to create different signs with you hands. Press "Q" each time to change the sign and save the images.
 
+    <img src="image.png"/>
+
     2. Create dataset, using the images from previous step.
 
     ```bash
@@ -37,7 +39,7 @@ pip install -r requirements.txt
     ```bash
     python inference_classifier.py
     ```
-    
+
 ## Video
 
 Original video
